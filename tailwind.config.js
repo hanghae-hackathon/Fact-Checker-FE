@@ -43,5 +43,9 @@ export default {
     },
     extend: {},
   },
+<<<<<<< HEAD
   plugins: [],
+=======
+  plugins: [require("tailwindcss-animate")],
+>>>>>>> 2183f50 (feat: add query)
 };
