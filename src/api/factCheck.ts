@@ -12,26 +12,24 @@ import { useQuery } from "react-query";
 //   );
 // };
 
-
 export const useFactCheck = (userInput: string) => {
-    const url = 'http://172.190.90.75:5000/get-result';
-    const data = { url: userInput };
-   
-    
-    const options = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    };
+  const url = "http://172.190.90.75:5000/get-result";
+  const data = { url: userInput };
 
-    // Invoke useQuery inside a React component function
-    return useQuery("factCheck", async () => {
-      const response = await fetch(url, options);
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    });
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  };
+
+  // Invoke useQuery inside a React component function
+  return useQuery("factCheck", async () => {
+    const response = await fetch(url, options);
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  });
 };
