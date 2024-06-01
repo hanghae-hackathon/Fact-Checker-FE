@@ -33,6 +33,7 @@ export function InputWithButton() {
       setIsLoading(true);
       const data = await postGetResult(contextRef.current.value);
       setIsLoading(false);
+      console.log(data);
       setResult(data?.result);
     } catch (error) {
       console.error("Error fetching result:", error);

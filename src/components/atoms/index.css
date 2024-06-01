@@ -1,5 +1,5 @@
 .fact-input {
-  width: 1000px;
+  width: 1000px !important;
 }
 .max-w-xl {
   max-width: 36rem;
@@ -13,12 +13,9 @@
   display: inline-block;
   width: 80px;
   height: 80px;
-  opacity: 0;
   transition: opacity 0.6s;
 }
-.lds-dual-ring-visible {
-  opacity: 1;
-}
+
 .lds-dual-ring:after {
   content: " ";
   display: block;
