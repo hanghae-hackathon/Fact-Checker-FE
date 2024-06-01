@@ -69,11 +69,11 @@ export function InputWithButton() {
             <CardDescription className="max-w-lg">
               <p className="py-1 text-lg">
                 {" "}
-                <span style={{ fontWeight: "bold", color: "blue" }}>
+                <span style={{ fontWeight: "bold", color: "cadetblue" }}>
                   {result.subject}
                 </span>
                 의 사실 정확도는{" "}
-                <span style={{ fontWeight: "bold", color: "red" }}>
+                <span style={{ fontWeight: "bold", color: "indianred" }}>
                   {result.percentage}%
                 </span>
                 입니다.
