@@ -20,7 +20,10 @@ export function get<T>(...args: Parameters<typeof instance.get>) {
 export function post<T>(url: string, data: unknown): Promise<T> {
   return instance
     .post<unknown, AxiosResponse<T>>(url, data)
-    .then((response) => response.data);
+    .then((response) => {
+      console.log(response.data);
+      return response.data;
+    });
 }
 
 export function put<T>(...args: Parameters<typeof instance.put>) {
