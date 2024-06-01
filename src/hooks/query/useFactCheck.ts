@@ -1,6 +1,9 @@
 import { post } from "@/api/client.ts";
 
 export type responseType = {
+  result: responseDataType;
+};
+export type responseDataType = {
   code: string;
   percentage: number;
   subject: string;

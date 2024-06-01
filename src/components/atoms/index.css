@@ -1,6 +1,9 @@
 .fact-input {
   width: 1000px;
 }
+.max-w-xl {
+  max-width: 36rem;
+}
 
 .lds-dual-ring,
 .lds-dual-ring:after {
