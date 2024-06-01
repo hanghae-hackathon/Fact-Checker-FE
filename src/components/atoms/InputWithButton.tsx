@@ -85,7 +85,7 @@ export function InputWithButton() {
         가짜뉴스 탐지 AI 서비스
       </h1>
 
-      <div className="flex w-full max-w-sm items-center space-x-2 mt-10 mb-10">
+      <div className="flex w-full max-w-xl items-center space-x-2 mt-10 mb-10">
         <Input
           type="text"
           placeholder={TEXT.INPUT_PLACEHOLDER}
