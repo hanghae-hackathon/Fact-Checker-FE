@@ -15,6 +15,8 @@ export type newsListType = {
   link: string;
 };
 
-export const postGetResult = (youtubeUrl: string): Promise<responseType> => {
-  return post("/get-result", { url: youtubeUrl });
+export const postGetResult = async (
+  youtubeUrl: string,
+): Promise<responseType> => {
+  return await post("/get-result", { url: youtubeUrl });
 };
