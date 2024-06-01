@@ -72,7 +72,6 @@ export function InputWithButton() {
       setIsLoading(true);
       const data = await postGetResult(contextRef.current.value);
       //       setResult(mock);
-      const data = await postGetResult(contextRef.current.value);
       setIsLoading(false);
       setResult(data);
     } catch (error) {
@@ -101,7 +100,6 @@ export function InputWithButton() {
           검사
         </Button>
       </div>
-
 
       {result && (
         <Card>
