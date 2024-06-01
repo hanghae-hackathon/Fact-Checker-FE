@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from "axios";
 
 export const instance = axios.create({
-  baseURL: "http://172.190.90.75:5000/",
+  baseURL: "https://172.190.90.75",
   withCredentials: false,
 });
 
