@@ -71,7 +71,7 @@ export function InputWithButton() {
               <p className="py-1 text-lg">
                 {" "}
                 <span style={{ fontWeight: "bold", color: "cadetblue" }}>
-                  {result.subject}
+                  [{result.subject}]
                 </span>
                 의 사실 정확도는{" "}
                 <span style={{ fontWeight: "bold", color: "indianred" }}>
