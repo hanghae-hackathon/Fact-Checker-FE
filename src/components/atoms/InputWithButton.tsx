@@ -3,6 +3,7 @@ import { responseType, responseDataType } from "@/hooks/query/useFactCheck";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
+import { Badge } from "@/components/ui/badge";
 import { TEXT } from "@/constants";
 import {
   Card,
@@ -43,7 +44,7 @@ export function InputWithButton() {
   return (
     <div>
       <h1 className="text-4xl font-bold mt-10 mb-10">
-        가짜뉴스 탐지 AI 서비스
+        가짜뉴스 탐지 AI 서비스<Badge className="badge">Beta</Badge>
       </h1>
 
       <div className="flex w-full max-w-xl items-center space-x-2 mt-10 mb-10">

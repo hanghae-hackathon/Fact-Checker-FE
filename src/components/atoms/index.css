@@ -15,6 +15,10 @@
     sans-serif;
 }
 
+.badge {
+  color: greenyellow;
+}
+
 .fact-input {
   width: 600px !important;
 }

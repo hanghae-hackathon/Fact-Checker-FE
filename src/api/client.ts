@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from "axios";
 
 export const instance = axios.create({
-  baseURL: "https://172.190.90.75",
+  baseURL: "https://app.ekwak.com",
   withCredentials: false,
 });
 
