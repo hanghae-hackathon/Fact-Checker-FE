@@ -65,6 +65,7 @@ See our [CODEOWNERS](./.github/CODEOWNERS) file.
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/factchecker/fact-checker-fe/deployments)
 
 - https://fact-checker-fe.vercel.app/ <br>
+- [발표자료](./pdf/FactChecker팀 최종 발표 c87df5402c4d4e77819f95b63e7227aa.pdf)
 
 <br/>
 
