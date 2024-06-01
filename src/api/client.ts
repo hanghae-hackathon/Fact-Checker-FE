@@ -17,12 +17,9 @@ export function get<T>(...args: Parameters<typeof instance.get>) {
   return instance.get<T, T>(...args);
 }
 
-export function post<T>(url: string, data: unknown): Promise<T> {
-  return instance
-    .post<unknown, AxiosResponse<T>>(url, data)
-    .then((response) => {
-      return response.data;
-    });
+export async function post<T>(url: string, data: unknown): Promise<T> {
+  const response = await instance.post<T, T>(url, data);
+  return response;
 }
 
 export function put<T>(...args: Parameters<typeof instance.put>) {
