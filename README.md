@@ -50,7 +50,7 @@
 |                                                 최푸름                                                  |                                                  박지혜                                                  |
 | :-----------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
 | <img src="https://avatars.githubusercontent.com/u/55127127?v=4" alt="profile" width="180" height="180"> | <img src="https://avatars.githubusercontent.com/u/106166065?v=4" alt="profile" width="180" height="180"> |
-|                               [choipureum](https://github.com/choipureum)                               |                                  [lxxmnmn](https://github.com/Jeehay28)                                  |
+|                               [choipureum](https://github.com/choipureum)                               |                                  [Jeehay28](https://github.com/Jeehay28)                                  |
 
 <br/>
 
